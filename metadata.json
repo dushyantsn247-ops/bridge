@@ -1,0 +1,6 @@
+{
+  "name": "BRIDGE — AI Creator-Brand Collaboration Marketplace",
+  "description": "An intelligent marketplace connecting emerging creators (10K–50K followers) with forward-thinking brands through transparent AI matching, Deal Rooms, and verified workflows.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,159 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-display: "Sora", sans-serif;
+  --font-editorial: "Playfair Display", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+
+  --color-bg-primary: #050509;
+  --color-bg-secondary: #0B0D18;
+  --color-surface-card: #101426;
+  --color-surface-elevated: #171B2C;
+  --color-electric-blue: #246BFD;
+  --color-cyber-cyan: #00D5FF;
+  --color-hot-magenta: #F000B8;
+  --color-ultraviolet: #9C65FF;
+  --color-text-primary: #F5F5FA;
+  --color-text-secondary: #9295A9;
+  --color-status-success: #34D399;
+  --color-status-warning: #F59E0B;
+  --color-status-error: #EF4444;
+}
+
+:root {
+  color-scheme: dark;
+  background-color: #050509;
+  color: #F5F5FA;
+}
+
+html {
+  scroll-behavior: auto;
+  font-family: var(--font-sans);
+  background-color: #050509;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  overflow-x: hidden;
+  background-color: #050509;
+  color: #F5F5FA;
+  letter-spacing: 0.005em;
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.font-editorial {
+  font-family: var(--font-editorial);
+}
+
+.font-mono-tabular {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+.text-outline-editorial {
+  color: transparent;
+  -webkit-text-stroke: 1px rgba(245, 245, 250, 0.36);
+}
+
+.text-outline-cyan {
+  color: transparent;
+  -webkit-text-stroke: 1px rgba(0, 213, 255, 0.55);
+}
+
+.chrome-gradient-text {
+  background: linear-gradient(125deg, #F5F5FA 15%, #00D5FF 48%, #9C65FF 76%, #F000B8 98%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+@keyframes pulseGlow {
+  0%, 100% {
+    opacity: 0.45;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.85;
+    transform: scale(1.08);
+  }
+}
+
+@keyframes floatSlow {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+@keyframes waveSweep {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animate-float-slow {
+  animation: floatSlow 6s ease-in-out infinite;
+}
+
+.animate-pulse-glow {
+  animation: pulseGlow 4s ease-in-out infinite;
+}
+
+.gradient-shimmer-sweep {
+  background-size: 200% 200%;
+  animation: waveSweep 8s ease infinite;
+}
+
+/* Interactive card glow utility */
+.interactive-glow-card {
+  position: relative;
+  transition: transform 0.2s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.2s ease, box-shadow 0.2s ease;
+}
+.interactive-glow-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 16px 36px -12px rgba(0, 213, 255, 0.16), 0 0 24px -6px rgba(240, 0, 184, 0.12);
+}
+
+/* Subtle custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #050509;
+}
+::-webkit-scrollbar-thumb {
+  background: #171B2C;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #246BFD;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+

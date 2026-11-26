@@ -1,0 +1,1448 @@
+# PROJECT: BRIDGE
+## Build a premium, futuristic, AI-powered creator-brand collaboration marketplace from scratch.
+
+You are an elite product designer, creative director, senior full-stack engineer, 3D web developer, AI engineer and software architect.
+
+Your task is to DESIGN AND BUILD a complete, working web application called **BRIDGE**.
+
+This is a fresh project. Start from scratch. Do not assume an existing repository or reuse an earlier implementation.
+
+Do not just create a landing page or a collection of static UI screens. Build an actual functional full-stack application with authentication, a database, user roles, AI functionality, marketplace workflows and persistent data.
+
+The application should be visually exceptional, technically sound, responsive and suitable for demonstrating to investors, brands, creators and technology judges.
+
+==================================================
+# 1. PRODUCT VISION
+==================================================
+
+Bridge is an AI-powered marketplace that connects emerging creators with 10K–50K followers to brands looking for authentic and relevant collaborations.
+
+The central philosophy:
+
+"Your influence isn't defined by your follower count. It's defined by the connection you create."
+
+Bridge solves the problem of smaller creators struggling to find legitimate brand collaborations while brands struggle to discover relevant emerging talent.
+
+The platform should combine the best ideas from:
+
+- LinkedIn: Professional creator profiles and applications.
+- Upwork: Collaboration opportunities and deal management.
+- AI-powered discovery: Intelligent creator-brand matching.
+- Stripe: Transparent deal and payment workflows.
+- Linear: Refined and intuitive product experience.
+
+Bridge is not a social media platform. It is a professional opportunity marketplace.
+
+There are three primary roles:
+
+1. Creator — discovers campaigns, applies and collaborates with brands.
+2. Brand — creates campaigns, discovers creators and manages collaborations.
+3. Admin — manages the marketplace, verification, moderation and disputes.
+
+Primary market: India.
+
+Primary currency: INR (₹).
+
+Architecture should support additional currencies in the future.
+
+==================================================
+# 2. VISUAL IDENTITY — MOST IMPORTANT
+==================================================
+
+I have attached TWO visual reference images.
+
+Study both references before designing anything.
+
+REFERENCE IMAGE 1 — CHOREO CLASS:
+
+Use this reference for:
+- Artistic direction.
+- Surreal 3D sculpture.
+- Reflective liquid chrome objects.
+- Human subjects integrated into 3D compositions.
+- Oversized editorial typography.
+- Asymmetric layouts.
+- Cinematic atmosphere.
+- Premium creative-studio aesthetics.
+- Sophisticated visual storytelling.
+
+REFERENCE IMAGE 2 — HUMAN NEXT:
+
+Use this reference for:
+- Futuristic technology atmosphere.
+- Black backgrounds.
+- Electric blue lighting.
+- Cyan illumination.
+- Hot magenta highlights.
+- Ultraviolet lighting.
+- Cinematic human imagery.
+- Neon reflections.
+- High-contrast typography.
+
+IMPORTANT:
+
+Combine the artistic language of the first image with the lighting and color language of the second image.
+
+Do not copy either reference website. Do not reproduce their exact compositions, artwork or typography.
+
+Create an original visual identity for Bridge.
+
+## Design direction
+
+FUTURISTIC EDITORIAL × SURREAL 3D × CINEMATIC TECHNOLOGY.
+
+The website should feel like:
+- An award-winning Awwwards digital experience.
+- A futuristic creative technology studio.
+- A premium AI startup.
+- An editorial fashion campaign.
+- An immersive 3D digital experience.
+
+Avoid generic SaaS templates, ordinary gradient backgrounds, repetitive cards, basic floating circles and standard dashboard designs.
+
+The website must feel intentionally art-directed.
+
+## Color palette
+
+Use this exact palette as the foundation:
+
+- Primary background: #050509
+- Secondary background: #0B0D18
+- Card surfaces: #101426
+- Elevated surfaces: #171B2C
+- Electric blue: #246BFD
+- Cyber cyan: #00D5FF
+- Hot magenta: #F000B8
+- Ultraviolet: #9C65FF
+- Primary text: #F5F5FA
+- Secondary text: #9295A9
+- Success: #34D399
+- Warning: #F59E0B
+- Error: #EF4444
+
+Use blue and cyan for intelligence and technology.
+
+Use magenta and violet for creativity, energy and visual emphasis.
+
+Use green exclusively for successful states, verification and completed actions.
+
+Do not make every element glow. Maintain sophisticated contrast and visual restraint.
+
+## Typography
+
+Use:
+- Space Grotesk or Sora for display typography.
+- Inter for body text and interface elements.
+- An elegant editorial serif font for selected oversized headlines.
+
+Typography should be a defining part of Bridge's identity.
+
+Use:
+- Massive uppercase headlines.
+- Tight letter spacing.
+- Contrasting font weights.
+- Large editorial text.
+- Occasional outlined typography.
+- Asymmetric positioning.
+- Small uppercase navigation labels.
+- Carefully controlled line heights.
+
+==================================================
+# 3. CINEMATIC 3D LANDING PAGE
+==================================================
+
+The landing page is the signature experience of Bridge.
+
+It must immediately communicate that Bridge is a premium, futuristic technology product.
+
+## Hero scene
+
+Create a full-screen immersive 3D scene.
+
+The central visual should be an original futuristic suspension bridge made from reflective liquid chrome and illuminated structures.
+
+The bridge symbolizes the connection between creators and brands.
+
+Visual composition:
+
+- A large surreal chrome ribbon forming an abstract bridge.
+- Reflective liquid-metal surfaces.
+- Electric blue and magenta lighting.
+- Glowing connection nodes.
+- Floating particles.
+- Holographic interface elements.
+- Atmospheric lighting and subtle fog.
+- Reflections and realistic material properties.
+- Depth and dimensionality.
+
+Represent creators on one side and brands on the other using elegant visual elements.
+
+Animated pulses of light should travel across the bridge to symbolize successful connections.
+
+The scene should resemble a high-end 3D art installation.
+
+Do not replace this with a generic gradient, stock photograph or collection of glowing spheres.
+
+## Technology
+
+Use:
+- Three.js.
+- React Three Fiber.
+- Drei.
+- Custom shaders or procedural geometry where useful.
+- High-quality 3D models and textures when available.
+
+If a complex 3D model cannot be generated directly, create a convincing procedural chrome sculpture using geometry, shaders, lighting and materials.
+
+Do not leave the central 3D object as a placeholder.
+
+## 3D interactions
+
+Implement:
+- Subtle mouse-controlled camera movement.
+- Slowly moving sculpture.
+- Scroll-controlled camera transitions.
+- Floating particles.
+- Animated light pulses.
+- Reflective lighting changes.
+- Subtle depth-of-field effects.
+- Smooth transitions between sections.
+
+Use Framer Motion, GSAP and ScrollTrigger.
+
+Use Lenis for smooth scrolling.
+
+Respect prefers-reduced-motion, mobile devices and low-power hardware.
+
+## Hero copy
+
+Main headline:
+
+"CREATORS MEET OPPORTUNITY."
+
+Supporting headline:
+
+"THE FUTURE OF BRAND COLLABORATIONS."
+
+Supporting paragraph:
+
+"An intelligent marketplace connecting emerging creators with brands that believe in their influence."
+
+Primary button:
+EXPLORE BRIDGE
+
+Secondary button:
+I'M A CREATOR
+
+Add a small live marketplace indicator showing actual database statistics or clearly labelled demo statistics.
+
+==================================================
+# 4. LANDING PAGE SECTIONS
+==================================================
+
+Create a complete storytelling experience.
+
+### Section 1 — The problem
+
+Headline:
+
+"YOUR FOLLOWING ISN'T YOUR VALUE."
+
+Explain why emerging creators deserve better opportunities.
+
+Use large typography, cinematic imagery and animated statistics.
+
+### Section 2 — The Bridge
+
+Show the chrome bridge assembling itself through scroll interaction.
+
+Explain how Bridge connects brands and creators.
+
+### Section 3 — Intelligence
+
+Show an animated AI matching experience.
+
+A creator profile gets scanned and relevant campaign cards appear.
+
+Display:
+- Niche compatibility.
+- Audience alignment.
+- Engagement quality.
+- Budget compatibility.
+- Overall match score.
+
+### Section 4 — Opportunities
+
+Show real or clearly labelled demo campaign previews.
+
+Use elegant horizontal scrolling and layered visual compositions.
+
+### Section 5 — Trust
+
+Show the verification process, transparent applications and collaboration management.
+
+### Section 6 — How it works
+
+Create interactive Creator and Brand tabs.
+
+Creator journey:
+Create profile → Discover campaigns → Apply → Get accepted → Collaborate.
+
+Brand journey:
+Create campaign → Discover creators → Review applications → Accept → Collaborate.
+
+### Section 7 — Social proof
+
+Add testimonials from clearly labelled demo users.
+
+Do not invent real customer testimonials or claim actual partnerships.
+
+### Section 8 — Pricing
+
+Show creator and brand subscription plans.
+
+### Section 9 — FAQ
+
+Create a fully interactive accordion.
+
+### Section 10 — Final CTA
+
+Headline:
+
+"THE RIGHT CONNECTION CHANGES EVERYTHING."
+
+Buttons:
+JOIN AS CREATOR
+FIND CREATORS
+
+Create a premium footer with navigation, social links, legal pages and brand identity.
+
+==================================================
+# 5. NAVIGATION AND PUBLIC PAGES
+==================================================
+
+Create a refined navigation bar containing:
+
+- Bridge logo.
+- Explore.
+- How it works.
+- For creators.
+- For brands.
+- About.
+- Pricing.
+- Log in.
+- Get started.
+
+Include:
+- Smooth hover effects.
+- Animated underline.
+- Text reveal.
+- Transparent-to-dark background transition on scroll.
+- Responsive mobile navigation.
+
+Create these public pages:
+
+1. Landing.
+2. Explore campaigns.
+3. How it works.
+4. Pricing.
+5. About.
+6. Team.
+7. FAQ.
+8. Contact.
+9. Terms and conditions.
+10. Privacy policy.
+11. Login.
+12. Signup.
+13. Forgot password.
+14. 404.
+
+About page team:
+
+BUILD4
+
+- Dushyant Narang.
+- Kulvir Dulani.
+- Kanishika Jaiswal.
+- Vanshika Verma.
+
+==================================================
+# 6. PREMIUM AUTHENTICATION EXPERIENCE
+==================================================
+
+Authentication must have its own carefully designed visual experience.
+
+Do not use a generic login template.
+
+## Login page
+
+Use a cinematic split-screen layout.
+
+Left panel:
+- Dark atmospheric background.
+- Animated 3D chrome artwork.
+- Electric blue and magenta lighting.
+- Subtle particles.
+- Large editorial typography.
+
+Headline:
+
+"YOUR NEXT CONNECTION STARTS HERE."
+
+Supporting text:
+
+"One platform. Endless creative possibilities."
+
+Right panel:
+
+BRIDGE logo.
+
+"Welcome back."
+
+"Your next opportunity is waiting."
+
+Form fields:
+- Email address.
+- Password.
+
+Additional features:
+- Show/hide password.
+- Remember me.
+- Forgot password.
+- Login button.
+- Continue with Google.
+- Link to create an account.
+
+Add elegant focus animations, validation messages, loading states and success transitions.
+
+## Signup page
+
+Headline:
+
+"MAKE YOUR NEXT MOVE."
+
+First ask users to select their role.
+
+CREATOR:
+"I want to collaborate with brands."
+
+BRAND:
+"I want to discover and work with creators."
+
+Make the two options interactive with animated selection states.
+
+Collect:
+- Full name.
+- Email.
+- Password.
+- Confirm password.
+- Acceptance of terms.
+
+Support Google sign-in.
+
+## Authentication functionality
+
+Use Firebase Authentication.
+
+Implement:
+- Email/password registration.
+- Login.
+- Google sign-in.
+- Email verification.
+- Password reset.
+- Persistent sessions.
+- Protected routes.
+- Role-based redirects.
+- Logout.
+- Account deletion.
+
+Never store passwords directly in Firestore or localStorage.
+
+==================================================
+# 7. ROLE-BASED ONBOARDING
+==================================================
+
+After registration, take the user through an animated multi-step onboarding process.
+
+Show:
+- Progress indicator.
+- Step transitions.
+- Save and continue.
+- Back button.
+- Form validation.
+- Live profile preview.
+
+## Creator onboarding
+
+Collect:
+
+- Full name.
+- Profile photograph.
+- Bio.
+- City.
+- Languages.
+- Content niches.
+- Instagram account.
+- YouTube account.
+- Other social platforms.
+- Follower counts.
+- Engagement rate.
+- Portfolio links.
+- Preferred collaboration types.
+- Rate card.
+- Availability.
+
+Allow profile image and portfolio uploads through Firebase Storage.
+
+Make clear when statistics are self-reported.
+
+## Brand onboarding
+
+Collect:
+
+- Company name.
+- Company logo.
+- Website.
+- Industry.
+- Company description.
+- Company location.
+- Contact information.
+- Preferred creator categories.
+- Team information.
+
+==================================================
+# 8. CREATOR DASHBOARD
+==================================================
+
+Build a premium, highly usable creator dashboard.
+
+Use a dark interface with restrained blue and violet accents.
+
+Sidebar navigation:
+
+- Overview.
+- Discover campaigns.
+- Saved campaigns.
+- Applications.
+- Deals.
+- Messages.
+- Analytics.
+- My profile.
+- Notifications.
+- Settings.
+
+## Dashboard overview
+
+Display:
+
+- Welcome message.
+- Profile completion ring.
+- Bridge Creator Score.
+- Recommended campaigns.
+- AI match percentages.
+- Application pipeline.
+- Active collaborations.
+- Earnings.
+- Notifications.
+- Upcoming deadlines.
+
+## Creator profile
+
+Create a professional portfolio-style public profile.
+
+Include:
+- Profile photograph.
+- Cover artwork.
+- Bio.
+- Niches.
+- Platforms.
+- Followers.
+- Engagement.
+- Languages.
+- Audience details when available.
+- Portfolio gallery.
+- Previous collaborations.
+- Rate card.
+- Verification status.
+- Availability.
+
+## Discover campaigns
+
+Implement:
+
+- Search.
+- Niche filters.
+- Platform filters.
+- Budget filters.
+- Deadline filters.
+- Location filters.
+- Language filters.
+- Verified brands filter.
+- Match-score sorting.
+- Newest campaigns.
+- Grid/list view.
+
+Campaign cards must display:
+- Brand logo.
+- Campaign name.
+- Campaign category.
+- Budget.
+- Required platforms.
+- Deliverables.
+- Deadline.
+- Applicant count.
+- AI match score.
+- Verification status.
+
+Campaign detail page must display the complete campaign brief.
+
+Allow creators to save and apply to campaigns.
+
+## Application workflow
+
+Creators should be able to:
+
+- Write a pitch.
+- Generate a pitch with Gemini.
+- Edit generated content.
+- Propose a collaboration rate.
+- Attach portfolio examples.
+- Answer brand questions.
+- Submit application.
+
+Prevent duplicate applications.
+
+Show application statuses:
+
+Draft → Submitted → Viewed → Shortlisted → Discussion → Accepted / Rejected.
+
+Notify creators when their application status changes.
+
+## Creator analytics
+
+Use Recharts.
+
+Show:
+- Profile views.
+- Campaign impressions.
+- Applications.
+- Acceptance rate.
+- Earnings over time.
+- Completed collaborations.
+- Most successful niches.
+
+Distinguish real platform analytics from unavailable third-party social analytics.
+
+==================================================
+# 9. BRAND DASHBOARD
+==================================================
+
+Build a separate brand experience.
+
+Sidebar:
+
+- Overview.
+- Campaigns.
+- Discover creators.
+- Applications.
+- Shortlisted creators.
+- Deal management.
+- Messages.
+- Analytics.
+- Billing.
+- Team settings.
+
+## Brand dashboard
+
+Display:
+- Active campaigns.
+- Total applications.
+- Matched creators.
+- Shortlisted creators.
+- Active deals.
+- Campaign performance.
+- Budget utilization.
+- Recent activity.
+
+## Campaign builder
+
+Create an elegant multi-step campaign creation process.
+
+Fields:
+
+- Campaign title.
+- Brand.
+- Industry.
+- Campaign description.
+- Campaign objective.
+- Target audience.
+- Preferred creator niches.
+- Platforms.
+- Deliverables.
+- Budget range.
+- Start date.
+- End date.
+- Application deadline.
+- Required languages.
+- Location.
+- Eligibility requirements.
+- Content guidelines.
+- Do's and don'ts.
+- Number of creators required.
+
+Include live campaign preview.
+
+## AI campaign assistant
+
+A brand should be able to describe its campaign in natural language.
+
+Example:
+
+"We are launching a fitness drink and want Indian college creators who produce lifestyle and fitness content. Our budget is ₹50,000. We want Instagram Reels."
+
+Gemini should transform this into structured campaign information.
+
+Allow the brand to edit and approve every generated field before publishing.
+
+## Creator discovery
+
+Show creators ranked by relevant match scores.
+
+Include:
+- Profile information.
+- Follower count.
+- Engagement.
+- Niche.
+- Portfolio.
+- Rate card.
+- Match explanation.
+- Verification status.
+
+Allow:
+- Search.
+- Filtering.
+- Creator comparison.
+- Shortlisting.
+- Private talent collections.
+- Direct invitations.
+
+## Applications management
+
+Build a kanban board:
+
+New → Reviewed → Shortlisted → Discussion → Accepted / Rejected.
+
+Brands can:
+- View applications.
+- Review creator portfolios.
+- Compare two creators.
+- Add internal notes.
+- Message creators.
+- Accept or reject.
+- Create deals.
+
+==================================================
+# 10. BRIDGE AI MATCHING ENGINE
+==================================================
+
+This is the most important functional differentiator.
+
+Implement a real matching engine.
+
+Do not generate random match percentages.
+
+Use a transparent weighted algorithm.
+
+Default matching weights:
+
+- Niche relevance: 30%.
+- Audience alignment: 25%.
+- Engagement quality: 20%.
+- Budget compatibility: 15%.
+- Platform compatibility: 10%.
+
+Calculate scores using actual stored creator and campaign data.
+
+Return:
+
+- Overall score from 0–100.
+- Individual component scores.
+- Three reasons for the match.
+- Potential mismatches.
+- Recommended rate.
+- Suggested content angle.
+
+Example:
+
+"92% Match"
+
+Why this match works:
+- Strong lifestyle niche compatibility.
+- Audience aligns with campaign demographics.
+- Engagement is within the preferred range.
+- Creator's rate fits the available budget.
+
+Show when information is missing or self-reported.
+
+Allow configurable weights.
+
+Use Gemini to generate explanations and suggestions, but keep core scoring deterministic and testable.
+
+Never allow an AI score alone to automatically reject a creator.
+
+Cache match calculations and recompute when relevant creator or campaign information changes.
+
+==================================================
+# 11. ADDITIONAL GEMINI AI FEATURES
+==================================================
+
+Integrate the Gemini API through secure server-side functions.
+
+Use environment variables.
+
+Never expose the API key in browser code.
+
+Implement:
+
+1. Creator profile analysis.
+2. Niche recommendations.
+3. Creator-brand match explanations.
+4. AI-generated application pitches.
+5. Suggested creator rates.
+6. Campaign brief improvement.
+7. Campaign recommendations.
+8. Creator authenticity risk indicators.
+9. Campaign performance insights.
+10. Content angle suggestions.
+
+Use structured JSON outputs and schema validation.
+
+Every AI feature must include:
+- Loading states.
+- Error states.
+- Retry.
+- Validation.
+- Editable generated content.
+- Clear explanations.
+
+Authenticity checks must be labelled heuristic, not verified fraud detection.
+
+Use deterministic fallback functionality when Gemini is unavailable.
+
+==================================================
+# 12. DEAL ROOM
+==================================================
+
+Create a shared workspace for every accepted collaboration.
+
+Include:
+
+- Creator and brand information.
+- Deal overview.
+- Agreed payment.
+- Deliverables.
+- Deadlines.
+- Milestones.
+- Shared files.
+- Submission history.
+- Revisions.
+- Approval.
+- Messaging.
+- Payment timeline.
+
+Deliverable statuses:
+
+Not Started → In Progress → Submitted → Under Review → Revision Requested → Approved.
+
+Brands can request revisions with written feedback.
+
+Creators can submit revised content.
+
+Maintain submission history.
+
+When all deliverables are approved:
+- Mark deal completed.
+- Update creator collaboration history.
+- Update brand analytics.
+- Update payment status.
+- Allow both parties to review each other.
+
+==================================================
+# 13. MESSAGING AND NOTIFICATIONS
+==================================================
+
+Build a private real-time messaging experience.
+
+Support:
+- Application conversations.
+- Deal conversations.
+- Text messages.
+- File attachments.
+- Timestamps.
+- Read indicators.
+- Notifications.
+- Conversation search.
+
+Use Firestore real-time listeners where appropriate.
+
+Notification examples:
+
+- New campaign recommendation.
+- Application viewed.
+- Creator shortlisted.
+- Application accepted.
+- New message.
+- Deliverable due.
+- Revision requested.
+- Verification approved.
+- Deal completed.
+
+Include unread counters and notification preferences.
+
+Only authorized conversation participants can access messages.
+
+==================================================
+# 14. REVIEWS AND REPUTATION
+==================================================
+
+After a completed deal, both parties can leave reviews.
+
+Brands evaluate:
+- Communication.
+- Content quality.
+- Timeliness.
+- Professionalism.
+
+Creators evaluate:
+- Communication.
+- Payment reliability.
+- Brief clarity.
+- Professionalism.
+
+Only completed-deal participants can submit reviews.
+
+Prevent duplicate reviews.
+
+Add report and moderation functionality.
+
+==================================================
+# 15. PAYMENT AND MONETIZATION
+==================================================
+
+Build a commercially viable foundation.
+
+## Creator plans
+
+FREE:
+- Profile creation.
+- Campaign discovery.
+- Applications.
+- Basic AI features.
+- Deal Room.
+
+BRIDGE PLUS:
+- Advanced analytics.
+- Enhanced AI insights.
+- Additional portfolio features.
+- Advanced recommendations.
+
+## Brand plans
+
+STARTER:
+- Campaign creation.
+- Creator discovery.
+- Applicant management.
+- Basic analytics.
+
+GROWTH:
+- Advanced AI matching.
+- Creator comparison.
+- Advanced analytics.
+- Team collaboration.
+
+ENTERPRISE:
+- Custom campaign management.
+- Multiple team members.
+- Advanced reporting.
+- Priority support.
+
+Create a premium pricing page.
+
+Implement plan selection and a clearly labelled test checkout experience.
+
+## Payment lifecycle
+
+Support these deal states:
+
+Unfunded → Funded → In Review → Released.
+
+Also support:
+- Refunded.
+- Disputed.
+
+Initially implement clearly labelled simulated payments.
+
+Structure the payment service so Stripe or another payment gateway can be integrated later.
+
+Never claim actual money was transferred when using simulation.
+
+==================================================
+# 16. ADMIN DASHBOARD
+==================================================
+
+Create a dedicated admin control center.
+
+Dashboard metrics:
+
+- Total creators.
+- Total brands.
+- Active campaigns.
+- Active deals.
+- Completed deals.
+- Platform growth.
+- Match-to-application rate.
+- Average time to first deal.
+- Simulated transaction volume.
+- Open disputes.
+
+Admin features:
+
+- User management.
+- Role management.
+- Verification queue.
+- Campaign moderation.
+- Dispute resolution.
+- Reports.
+- Account suspension.
+- Audit logs.
+- Platform analytics.
+
+Verification workflow:
+
+1. User submits verification documents.
+2. Documents go to private storage.
+3. Admin reviews submission.
+4. Admin approves or rejects with a reason.
+5. User receives notification.
+6. Verified badge updates.
+
+Use green verification indicators.
+
+Admin authorization must be enforced by backend security rules, not only by hiding interface elements.
+
+==================================================
+# 17. DATABASE ARCHITECTURE
+==================================================
+
+Use Firebase as the primary backend.
+
+Firebase services:
+
+- Authentication.
+- Cloud Firestore.
+- Firebase Storage.
+- Cloud Functions or secure server-side endpoints.
+
+Suggested Firestore collections:
+
+users
+creatorProfiles
+brandProfiles
+campaigns
+matches
+applications
+deals
+deliverables
+submissions
+payments
+conversations
+messages
+notifications
+verifications
+disputes
+reports
+reviews
+savedCampaigns
+creatorCollections
+contactMessages
+auditLogs
+
+Use proper relationships, timestamps, document IDs and indexes.
+
+Implement security rules.
+
+Core access rules:
+
+- Users can edit their own profiles.
+- Brands can manage their own campaigns.
+- Brands can access applications to their campaigns.
+- Creators can access their own applications.
+- Deal participants can access their deal.
+- Conversation participants can access their messages.
+- Private verification documents are restricted.
+- Admin access requires verified backend authorization.
+
+Never trust a role supplied by the client.
+
+If Firebase cannot be configured immediately, create a typed service layer and a clearly separated local development adapter.
+
+The local adapter should persist demo data but must not pretend to provide real multi-user security or synchronization.
+
+==================================================
+# 18. DEMO MODE AND SAMPLE DATA
+==================================================
+
+Bridge must look alive immediately after launch.
+
+Create a separate demo environment.
+
+Seed:
+
+- At least 15 creator profiles.
+- At least 8 brands.
+- At least 12 campaigns.
+- Realistic applications.
+- Match results.
+- Conversations.
+- Completed deals.
+- Notifications.
+
+Use Indian marketplace examples across:
+
+- Technology.
+- Fashion.
+- Fitness.
+- Beauty.
+- Food and beverages.
+- Education.
+- Lifestyle.
+- Travel.
+
+Use realistic INR budgets.
+
+Create demo login experiences for:
+
+- Creator.
+- Brand.
+- Admin.
+
+Clearly identify demo accounts and demo records.
+
+Do not mix demo data with production users.
+
+==================================================
+# 19. TECHNICAL STACK
+==================================================
+
+Frontend:
+
+- React.
+- TypeScript.
+- Vite.
+- Tailwind CSS.
+- React Router.
+
+Animation:
+
+- Framer Motion.
+- GSAP.
+- ScrollTrigger.
+- Lenis.
+
+3D:
+
+- Three.js.
+- React Three Fiber.
+- Drei.
+
+Charts:
+
+- Recharts.
+
+Icons:
+
+- Lucide React.
+
+Backend:
+
+- Firebase Authentication.
+- Firestore.
+- Firebase Storage.
+- Cloud Functions or secure server endpoints.
+
+AI:
+
+- Gemini API.
+
+Architecture requirements:
+
+- Modular folder structure.
+- Reusable components.
+- Typed service layer.
+- Custom hooks.
+- Form validation.
+- Error boundaries.
+- Protected routes.
+- Role-based authorization.
+- Centralized error handling.
+- Toast notifications.
+- Confirmation dialogs.
+- Loading skeletons.
+
+Use current stable, mutually compatible package versions.
+
+==================================================
+# 20. RESPONSIVENESS, ACCESSIBILITY AND PERFORMANCE
+==================================================
+
+Desktop:
+- Full 3D hero.
+- Immersive animations.
+- Large editorial typography.
+
+Tablet:
+- Reduced 3D complexity.
+- Responsive composition.
+
+Mobile:
+- Simplified 3D.
+- Touch-friendly navigation.
+- Optimized typography.
+- Functional dashboards.
+- No horizontal overflow.
+
+Performance:
+
+- Lazy-load 3D assets.
+- Optimize textures and models.
+- Cap particle counts.
+- Pause animations when the tab is hidden.
+- Respect reduced-motion preferences.
+- Avoid unnecessary re-renders.
+- Optimize images.
+- Lazy-load routes.
+- Provide static 3D fallbacks.
+
+Accessibility:
+
+- Keyboard navigation.
+- Accessible form labels.
+- Visible focus states.
+- Semantic HTML.
+- Sufficient color contrast.
+- Screen-reader-friendly controls.
+
+==================================================
+# 21. DEVELOPMENT ORDER — STRICTLY FOLLOW THIS
+==================================================
+
+Build the application in the following order.
+
+Do not randomly jump between features.
+
+PHASE 1 — FOUNDATION
+
+- Initialize the project.
+- Install dependencies.
+- Establish folder architecture.
+- Configure routing.
+- Set up Firebase.
+- Establish environment variables.
+- Create the service layer.
+- Establish the design tokens.
+
+PHASE 2 — DESIGN SYSTEM
+
+- Typography.
+- Color system.
+- Buttons.
+- Inputs.
+- Cards.
+- Navigation.
+- Dialogs.
+- Drawers.
+- Toasts.
+- Responsive layout.
+- Shared animations.
+
+PHASE 3 — LANDING PAGE
+
+- Cinematic 3D hero.
+- Chrome bridge sculpture.
+- Navigation.
+- Scroll storytelling.
+- Campaign previews.
+- How it works.
+- Pricing.
+- FAQ.
+- Footer.
+
+PHASE 4 — AUTHENTICATION
+
+- Login.
+- Signup.
+- Google authentication.
+- Forgot password.
+- Email verification.
+- Protected routes.
+- Role selection.
+
+PHASE 5 — ONBOARDING
+
+- Creator onboarding.
+- Brand onboarding.
+- Profile uploads.
+- Profile previews.
+- Database persistence.
+
+PHASE 6 — CREATOR MARKETPLACE
+
+- Creator dashboard.
+- Public creator profile.
+- Campaign discovery.
+- Campaign details.
+- Filters.
+- Saved campaigns.
+- Applications.
+
+PHASE 7 — BRAND MARKETPLACE
+
+- Brand dashboard.
+- Campaign builder.
+- Campaign publishing.
+- Creator discovery.
+- Creator comparison.
+- Application management.
+
+PHASE 8 — AI FEATURES
+
+- Gemini integration.
+- Match scoring.
+- Match explanations.
+- Pitch assistant.
+- Campaign assistant.
+- Rate recommendations.
+- Creator analysis.
+
+PHASE 9 — COLLABORATION SYSTEM
+
+- Messaging.
+- Notifications.
+- Application timelines.
+- Deal Room.
+- Deliverable management.
+- Revisions.
+- Approval.
+
+PHASE 10 — TRUST AND BUSINESS
+
+- Verification.
+- Payments in test mode.
+- Disputes.
+- Reviews.
+- Reputation.
+- Subscription plans.
+
+PHASE 11 — ADMIN
+
+- Admin dashboard.
+- Moderation.
+- User management.
+- Verification queue.
+- Analytics.
+- Audit logs.
+
+PHASE 12 — FINAL QUALITY CHECK
+
+- End-to-end testing.
+- Database rules.
+- Mobile responsiveness.
+- Error handling.
+- Performance.
+- Deployment documentation.
+
+==================================================
+# 22. END-TO-END TESTING
+==================================================
+
+Test these complete user journeys.
+
+CREATOR:
+
+Register → Select creator → Complete onboarding → Create profile → Discover campaign → View match → Apply → Get shortlisted → Get accepted → Enter Deal Room → Submit content → Receive approval → Complete deal → Leave review.
+
+BRAND:
+
+Register → Select brand → Complete onboarding → Create campaign → Improve brief with AI → Publish campaign → Discover creators → Review applications → Shortlist → Accept creator → Create deal → Review submission → Request revision → Approve → Complete deal → Leave review.
+
+ADMIN:
+
+Login → View platform metrics → Review verification → Approve/reject → Moderate campaign → Review dispute → Resolve dispute → Inspect audit logs.
+
+Test unauthorized access, invalid inputs, duplicate applications, expired sessions, AI failures and missing data.
+
+==================================================
+# 23. IMPORTANT EXECUTION RULES
+==================================================
+
+These instructions are mandatory.
+
+1. Actually implement the application. Do not return only a project plan.
+2. Do not create static screens and claim they are functional.
+3. Do not use dead buttons.
+4. Do not use random match scores.
+5. Do not fabricate real users, reviews, statistics or transactions.
+6. Clearly label demo and simulated data.
+7. Every form must validate.
+8. Every important action must persist.
+9. Every route must work.
+10. Every page must have appropriate loading, error and empty states.
+11. Maintain the same visual identity throughout the application.
+12. Never expose API keys.
+13. Never compromise backend security for demo convenience.
+14. Test features before moving to the next phase.
+15. Fix errors instead of ignoring them.
+16. Do not simplify the hero's 3D sculpture into generic glowing circles.
+17. Do not overuse animation at the expense of usability.
+18. Do not claim that something is deployed, connected or tested unless it actually is.
+
+At the end of each phase:
+
+- Explain what was implemented.
+- Run the application.
+- Check console and build errors.
+- Test relevant functionality.
+- Fix discovered problems.
+- Continue to the next phase.
+
+If context or execution limits interrupt development, preserve the working code and provide a precise continuation checklist.
+
+==================================================
+# 24. FINAL EXPECTATION
+==================================================
+
+I want BRIDGE to be a visually distinctive and technically functional startup product.
+
+The landing page should make people stop scrolling.
+
+The 3D experience should be memorable.
+
+The login page should feel premium.
+
+The creator dashboard should feel intuitive.
+
+The brand dashboard should feel professional.
+
+The AI should provide genuinely useful assistance.
+
+The marketplace should support real collaboration workflows.
+
+The complete product should feel like a combination of creative technology, intelligent discovery and professional collaboration.
+
+**Do not build a generic SaaS template. Build a recognizable brand and a working product.**
+
+Start by studying both attached visual references.
+
+Then build Phase 1 and continue sequentially through all phases.
+
+Make the final result something that can be confidently demonstrated to investors, potential customers and a technology judging panel.
